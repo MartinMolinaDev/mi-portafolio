@@ -1,5 +1,7 @@
 ---
-
+import Header from "../components/header.astro"
+import Hero from "../components/hero.astro"
+import Info	from "../components/info.astro"
 ---
 
 <html lang="en">
@@ -8,9 +10,22 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Martin Molina Portfolio</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="w-[600px] mx-auto flex flex-col items-center">
+		<Header />
+		<Hero />
+		<Info />
 	</body>
 </html>
+
+<style>
+	html{
+		background-color: #00020f;
+		color: beige;
+	}
+
+	h1{
+		
+	}
+</style>
