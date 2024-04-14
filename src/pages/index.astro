@@ -2,6 +2,7 @@
 import Header from "../components/header.astro"
 import Hero from "../components/hero.astro"
 import Info	from "../components/info.astro"
+import Habilidades from "../components/habilidades.astro"
 ---
 
 <html lang="en">
@@ -12,10 +13,11 @@ import Info	from "../components/info.astro"
 		<meta name="generator" content={Astro.generator} />
 		<title>Martin Molina Portfolio</title>
 	</head>
-	<body class="w-[600px] mx-auto flex flex-col items-center">
+	<body class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] p-5 mx-auto flex flex-col items-center">
 		<Header />
 		<Hero />
 		<Info />
+		<Habilidades />
 	</body>
 </html>
 
