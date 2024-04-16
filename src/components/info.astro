@@ -1,8 +1,24 @@
 ---
-
+import CvIcon from "../icons/cv.astro"
 ---
 
 <div class="py-4 sm:py-8 px-4 w-full md:w-[766px]  ">
     <h1 class="mb-2 font-bold font-sans text-md md:text-xl text-lime-400">&#60;Sobre mí /&#62;</h1>
     <p class="text-xs sm:text-base indent-8">Comprometido con aprender y crecer en el campo de pruebas manuales y automatizadas. <span class=" text-[#70b40c]">Capacidad</span> para trabajar colaborativamente y asimilar rápidamente nuevos conceptos. <span class="text-[#70b40c]">Apasionado</span>  por contribuir al éxito del equipo y alcanzar estándares de calidad excepcionales.</p>
+    <div class="pt-5">
+        <a
+            class="flex justify-center"
+                href="/CV-Martín-Molina-QA-Manual-Automation.pdf"
+                download="CV-Martín-Molina-QA-Manual-Automation.pdf"
+                title="DESCARGAR CV"
+                rel="noopener noreferrer"
+            >
+            <button
+                class="flex gap-3 rounded-lg bg-lime-400 py-3 px-6 font-sans text-xs font-bold uppercase text-black shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                data-ripple-light="true"
+                >
+                <CvIcon w="20" h="20" color="#000"/>DESCARGAR CV
+            </button>
+        </a>
+    </div>
 </div>
